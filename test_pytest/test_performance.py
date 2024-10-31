@@ -1,4 +1,3 @@
-import pytest
 import time
 
 
@@ -15,7 +14,7 @@ def test_find_element_performance():
     end_time = time.time()
 
     elapsed_time = end_time - start_time
-    assert result == True
+    assert result is True
     assert elapsed_time < 0.05
 
     print(f"Tempo de execução: {elapsed_time:.5f} segundos")

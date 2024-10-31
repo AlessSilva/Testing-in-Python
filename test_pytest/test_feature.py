@@ -1,6 +1,7 @@
 import pytest
 from components.ShoppingCart import ShoppingCart
 
+
 @pytest.fixture
 def shopping_cart() -> ShoppingCart:
     return ShoppingCart()
